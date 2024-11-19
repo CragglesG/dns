@@ -92,6 +92,11 @@ aryanpatel: # by https://github.com/aryanpatel142006
   ttl: 600
   type: CNAME
   value: cname.vercel-dns.com. # vercel
+
+betterwork-ai: # by https://heramb0x1.github.io/betterwork-ai
+  ttl: 600
+  type: CNAME
+  value: heramb0x1.github.io.
   
 canteen:
   ttl: 600
@@ -305,7 +310,12 @@ nimit: #https://github.com/NimitVijayvargee/nimitvijayvargee.github.io/
   ttl: 600
   type: CNAME
   value: nimitvijayvargee.github.io.
-  
+
+hacknote: # https://github.com/dispherical/hacknote
+  ttl: 600
+  type: CNAME
+  value: david.hackclub.app.
+
 normie: # normie
   ttl: 600
   type: CNAME
@@ -393,10 +403,22 @@ rr: # Rickroll with a single line of bash
   type: CNAME
   value: cname.vercel-dns.com.
 
+runshaw: # Used for an email alias for for runshaw hack club members (https://runshaw.hackclub.com/) - contact @Dragon863
+  ttl: 600
+  type: MX
+  value:
+    exchange: mail.danieldb.uk.
+    preference: 1
+
 scales: # (yet another?) currency slack bot (with some web UI) :D
   ttl: 600
   type: A
   value: 150.136.254.91 # Oracle Always Free:tm: server lol
+
+subdomain: # Free subdomain generator.
+  ttl: 600
+  type: CNAME
+  value: cname.vercel-dns.com.
 
 shadow: # shadow.dino.icu - contact @justhypex on discord for issues/enquiries
 - ttl: 600
@@ -450,8 +472,8 @@ spider: # spider.dino.icu; reserved by hack club bank
 
 social:
   ttl: 600
-  type: ALIAS
-  value: lithium.devcara.com.
+  type: CNAME
+  value: mastodon.hackclub.app.
 
 spotify:
   - ttl: 600
